@@ -1,0 +1,79 @@
+@media only screen and (max-width: 575px) {
+ .navbar-light .navbar-brand {
+    width: 60%;
+}
+.navbar-brand img {
+    width: 170px;
+}
+.navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+}
+.item{
+    height: 400px;
+}
+.slider-tablecell h2,
+.blockitem-slider-tablecell h2{
+    font-size: 25px;
+}
+.slider-tablecell p{
+    font-size: 14px;
+}
+.section-head h1 {
+    font-size: 25px;
+}
+.feature-icon {
+    position: absolute;
+    top: 2%;
+    text-align: center;
+    left: 50%;
+    margin-left: -30px;
+}
+.feature-content {
+    padding-left: 0;
+    padding-top: 22%;
+}
+.single-feature,
+.single-contact{
+    margin-bottom: 30px;
+}
+.feature-content h3 {
+    text-align: center;
+}
+#footer .widget {
+    padding-bottom: 30px;
+}
+ul.navbar-nav.ml-auto {
+    background-color: #fff;
+    padding-left: 20px;
+}
+.breadcrumb-text h2 {
+    font-size: 32px;
+}
+.sidebar {
+    margin-top: 50px;
+}
+.school-time {
+    margin-top: 50px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+ul.navbar-nav.ml-auto {
+    background-color: #fff;
+    padding-left: 20px;
+}   
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+    
+    
+}
+
+
+@media only screen and (max-width: 1199px) {
+    
+    
+}
