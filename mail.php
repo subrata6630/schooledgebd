@@ -18,7 +18,7 @@
             $fields = array('firstname' => 'firstname', 'lastname' => 'lastname', 'birthday' => 'birthday', 'gender' => 'gender', 'email' => 'email', 'phone' => 'phone',  'address' => 'address', 'message' => 'message'); 
             
             // message that will be displayed when everything is OK :)
-            $okMessage = '<p>Contact form successfully submitted.Thank you for contacting us.
+            $okMessage = '<p class="alert alert-success">Contact form successfully submitted.Thank you for contacting us.
             The SchoolEdge IT Team!</p>';
 
                         
