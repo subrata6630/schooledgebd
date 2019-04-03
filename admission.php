@@ -1,86 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- SITE TITLE -->
-    <title>Admission | SchoolEdge - Education For Nation</title>
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <!--Favicon for this site -->
-    <link rel="shortcut icon" type="text/css" href="assets/img/favicon.png">
-    <!-- Latest Bootstrap min CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <!-- owl.carousel CSS -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <!-- owl.theme.default CSS -->
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <!-- Responsive Style CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-
-<body>
-
-<!-- preloader -->
-<div class="preloader">
-    <div class="loader"></div>
-</div>
-
-<!-- Header Top Start -->
-<div class="header-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="contact-top">
-                    <ul class="nav">
-                        <li><i class="fas fa-phone"></i> +8801879-299999</li>
-                        <li><i class="fas fa-map-marker-alt"></i> H-42, R-13, Sector-3, Uttara, Dhaka-1230</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="social">
-                    <ul class="nav justify-content-end">
-                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
-                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Header Top End -->
-
-<!-- Start Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-faded site-navigation menu_dropdown">
-    <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo1.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
-                <li class="nav-item"><a class="nav-link" href="admission.html">ADMISSION</a></li>
-                <li class="nav-item"><a class="nav-link" href="gallery.html"> GALLERY</a></li>
-                <li class="nav-item"><a class="nav-link" href="blog.html">EVENTS & NEWS</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- End Navbar -->
+<?php include("header.php"); ?>
 
 <section id="header">
     <div class="header-overlay">
@@ -139,7 +57,6 @@
 
                             include 'mail.php';
                         }
-
                         ?>
                         <div class="container">
                             <div class="row justify-content-center">
@@ -149,19 +66,19 @@
                                             <form action="admission.php" id="admission" method="POST" role="form">
                                                 <div class="form-row">
                                                     <div class="col form-group">
-                                                        <label>First name </label>
+                                                        <label>First name* </label>
                                                         <input type="firstname" name="firstname" class="form-control"
                                                                placeholder="">
                                                     </div> <!-- form-group end.// -->
                                                     <div class="col form-group">
-                                                        <label>Last name</label>
+                                                        <label>Last name*</label>
                                                         <input type="lastname" name="lastname" class="form-control"
                                                                placeholder=" ">
                                                     </div> <!-- form-group end.// -->
                                                 </div> <!-- form-row end.// -->
 
                                                 <div class="form-group">
-                                                    <label>Email address</label>
+                                                    <label>Email address*</label>
                                                     <input type="email" class="form-control" placeholder="">
                                                     <small class="form-text text-muted">We'll never share your email
                                                         with anyone else.
@@ -181,22 +98,30 @@
                                                 </div> <!-- form-group end.// -->
 
                                                 <div class="form-group">
-                                                    <label>Which class are you applying for admission?</label>
-                                                    <select id="inputState" class="form-control">
-                                                        <option selected=""> Choose</option>
-                                                        <option>Uzbekistan</option>
+                                                    <label>Which class are you applying for admission?*</label>
+                                                    <select id="inputState" class="form-control" required="required">
+                                                        <option selected="">Choose</option>
+                                                        <option>Play Group</option>
+                                                        <option>Nursery</option>
+                                                        <option>Prep.Junior</option>
+                                                        <option>Prep.Senior</option>
+                                                        <option>Mother Toddlder</option>
+                                                        <option>Day care </option>
+                                                        <option>Day care </option>
+                                                        <option>Day after</option>
                                                     </select>
                                                 </div> <!-- form-group end.// -->
                                                 <div class="form-group">
                                                     <div class="form-group"> <!-- Date input -->
                                                         <label class="control-label" for="date">Date of Birth</label>
                                                         <input class="form-control" id="date" name="birthday"
-                                                               placeholder="MM/DD/YYY" type="text"/>
+                                                               placeholder="MM/DD/YYY"  type="text"/>
                                                     </div>
 
                                                     <div class="form-group ">
-                                                        <label>Phone</label>
-                                                        <input class="form-control" name="phone" type="phone">
+                                                        <label>Phone*</label>
+                                                        <input class="form-control" name="phone" type="phone" required="required"
+                                                                  data-error="Please, leave us a Phone.>
                                                     </div> <!-- form-group end.// -->
 
                                                     <div class="form-group ">
@@ -206,7 +131,7 @@
 
 
                                                     <div class="form-group">
-                                                        <label for="form_message">Message</label>
+                                                        <label for="form_message">Message*</label>
                                                         <textarea id="form_message" name="message" class="form-control"
                                                                   placeholder="" rows="4" required="required"
                                                                   data-error="Please, leave us a message."></textarea>
@@ -234,8 +159,10 @@
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                          aria-labelledby="v-pills-profile-tab">
                         <h2 class="section-title">Admission Form</h2>
-                        <iframe src="assets/img/schooledge-admission-form.pdf" style="width:100%; height:600px;"
-                                frameborder="0"></iframe>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, nesciunt error voluptatibus
+                            saepe sit eum id, a optio aliquid doloribus ipsa enim itaque dignissimos repellendus illo
+                            eveniet? Animi asperiores fuga suscipit nesciunt voluptatum rem iure nemo beatae quo facere
+                            provident natus maiores hic, in quod accusamus illo nobis, corrupti vel.</p>
                     </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                          aria-labelledby="v-pills-messages-tab">
@@ -309,9 +236,6 @@
                             saepe sit eum id, a optio aliquid doloribus ipsa enim itaque dignissimos repellendus illo
                             eveniet? Animi asperiores fuga suscipit nesciunt voluptatum rem iure nemo beatae quo facere
                             provident natus maiores hic, in quod accusamus illo nobis, corrupti vel.</p>
-
-                        <iframe src="assets/img/admission_form.pdf" style="width:100%; height:600px;"
-                                frameborder="0"></iframe>
                     </div>
                     <div class="tab-pane fade" id="v-pills-inter" role="tabpanel" aria-labelledby="v-pills-inter-tab">
                         <h2 class="section-title">Information for International Students</h2>

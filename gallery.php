@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,19 +66,19 @@
 	<!-- Start Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-faded site-navigation menu_dropdown">
 	 <div class="container">
-		  <a class="navbar-brand" href="#"><img src="assets/img/logo1.png" alt=""></a>
+		  <a class="navbar-brand" href="index.php"><img src="assets/img/logo1.png" alt=""></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 		    <ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
-				<li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
-				<li class="nav-item"><a class="nav-link" href="admission.html">ADMISSION</a></li>
-				<li class="nav-item"><a class="nav-link" href="gallery.html"> GALLERY</a></li>
-				<li class="nav-item"><a class="nav-link" href="blog.html">EVENTS & NEWS</a></li>
-				<li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+				<li class="nav-item"><a class="nav-link active" href="index.php">HOME</a></li>
+				<li class="nav-item"><a class="nav-link" href="about.php">ABOUT US</a></li>
+				<li class="nav-item"><a class="nav-link" href="admission.php">ADMISSION</a></li>
+				<li class="nav-item"><a class="nav-link" href="gallery.php"> GALLERY</a></li>
+				<li class="nav-item"><a class="nav-link" href="blog.php">EVENTS & NEWS</a></li>
+				<li class="nav-item"><a class="nav-link" href="contact.php">CONTACT US</a></li>
 		    </ul>
 		  </div>
 		</div>

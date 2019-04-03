@@ -1,102 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<!-- SITE TITLE -->
-	<title>Teachres | SchoolEdge - Education For Nation</title>
-	<!-- Meta -->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<!--Favicon for this site -->
-    <link rel="shortcut icon" type="text/css" href="assets/img/favicon.png">
-    <!-- Latest Bootstrap min CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<!-- Font Awesome CSS -->	
-	<link rel="stylesheet" href="assets/css/all.min.css">
-	<!-- owl.carousel CSS -->	
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<!-- owl.theme.default CSS -->
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-	<!-- Style CSS -->
-	<link rel="stylesheet" href="assets/css/styles.css">
-	<!-- Responsive Style CSS -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-
-<body>
-
-	<!-- preloader -->
-	<div class="preloader">
-		<div class="loader"></div>
-	</div>
-
-	<!-- Header Top Start -->
-	<div class="header-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="contact-top">
-						<ul class="nav">
-							<li><i class="fas fa-phone"></i> +8801879-299999</li>
-							<li><i class="fas fa-map-marker-alt"></i> H-42, R-13, Sector-3, Uttara, Dhaka-1230</li>
-						</ul>
-					</div>
-				</div>				
-				<div class="col-lg-6">
-					<div class="social">
-						<ul class="nav justify-content-end">
-							<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href=""><i class="fab fa-twitter"></i></a></li>
-							<li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href=""><i class="fab fa-youtube"></i></a></li>
-							<li><a href=""><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Header Top End -->
-
-	<!-- Start Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-faded site-navigation menu_dropdown">
-	 <div class="container">
-		  <a class="navbar-brand" href="#"><img src="assets/img/logo1.png" alt=""></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-
-		   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-		    <ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
-				<li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
-				<li class="nav-item"><a class="nav-link" href="admission.html">ADMISSION</a></li>
-				<li class="nav-item"><a class="nav-link" href="gallery.html"> GALLERY</a></li>
-				<li class="nav-item"><a class="nav-link" href="blog.html">EVENTS & NEWS</a></li>
-				<li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
-		    </ul>
-		  </div>
-		</div>
-	</nav>     
-	<!-- End Navbar -->
+<?php include("header.php"); ?>
 
 	<section id="header">
 		<div class="header-overlay">
 			<div class="breadcrumb-area text-center">
 				<div class="container">
 					<div class="breadcrumb-text">
-						<h2>Teachres</h2>
+						<h2>About Us</h2>
 					</div><!-- /.end of breadcrumb-text -->
 					<ol id="breadcrumb" class="breadcrumb">
 						<li><a href="index.html"><i class="fas fa-home"></i></a></li>
 						<li class="separator"> /</li>
-						<li class="active">Teachres</li>
+						<li class="active">About</li>
 					</ol>
 				</div><!-- /.end of container -->
 			</div><!-- /.end of breadcrumb-area -->
 		</div><!-- /.end of overlay -->
 	</section><!-- /#end of banner section -->
+
+	<!-- Start About Section-->
+	<section class="about">
+		<div class="container">
+			<div class="row P-0">
+				<div class="col-lg-6 p-0">
+					<div class="about-img">
+						<img src="assets/img/misson.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-6 p-0">
+					<div class="about-content">
+						<span class="subtitle">Our Mision</span>
+						<h3 class="section-title">Doing the right thing, at the right time.</h3>
+						<p>Differentiated in depth and cohesive learning programs aligned to year level content and achievement standards informed by Cambridge IGCSE syllabus</p>
+					</div>
+				</div>
+				<div class="w-100"></div>
+				<div class="col-lg-6 p-0">
+					<div class="about-content">
+						<span class="subtitle">Our Vision</span>
+						<h3 class="section-title">We make the most of all our students.</h3>
+						<p>To empower students to acquire, demonstrate, articulate and value knowledge and skills that will support them as lifelong learners to participate and contribute to the global world and practice the core values of the school : respect, tolerance inclusion and excellence.</p>
+					</div>				
+				</div>
+				<div class="col-lg-6 p-0">
+					<div class="about-img">
+						<img src="assets/img/vision.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Section-->
+
+	<!-- Start About Counter Section-->
+	<section class="counters">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="single-counter text-center">
+						<span class="counter">30</span>
+						<h3>Teachers</h3>						
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="single-counter text-center">
+						<span class="counter">15</span>
+						<h3>Outdoor Activities</h3>						
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="single-counter text-center">
+						<span class="counter">10</span>
+						<h3>Science Labs</h3>						
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="single-counter text-center">
+						<span class="counter">1000</span>
+						<h3>Students</h3>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Counter Section-->
 
 	<!-- Start About Teacher Section-->
 	<section class="teachers">
@@ -182,7 +168,8 @@
 	</section>
 	<!-- End About Teacher Section-->
 
-    <!-- Start Footer-->
+
+	<!-- Start Footer-->
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
@@ -237,7 +224,7 @@
 				</div>
 				<div class="col-lg-3">
 					<div class="widget">
-						<h2 class="widget-title">School Map</h2>
+						<h2 class="widget-title">Google Map</h2>
 						<div class="footer-map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.160689065784!2d90.39611682916448!3d23.8668162254583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDUyJzAwLjUiTiA5MMKwMjMnNDguMCJF!5e0!3m2!1sen!2sbd!4v1551812985442" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
@@ -272,8 +259,22 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<!-- js-owl.carousel -->
 	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- js-counterup -->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<!-- js-counterup waypoints -->
+	<script src="assets/js/jquery.waypoints.min.js"></script>
 	<!-- scripts js -->
 	<script src="assets/js/scripts.js"></script>
+	<script>		
+		jQuery(document).ready(function() {
+			if( !jQuery('html').hasClass('ie8') ) {
+				jQuery('.counter').counterUp({
+				delay: 20,
+				time: 2000
+				});
+			}
+		});
+	</script>
 
 </body>
 </html>
