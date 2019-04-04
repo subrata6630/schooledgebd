@@ -23,10 +23,10 @@
             <div class="col-lg-3 p-0">
                 <div class="nav flex-column nav-pills admission-nav" id="v-pills-tab" role="tablist"
                      aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                       aria-controls="v-pills-home" aria-selected="true">Admission Circular</a>
-                    <a class="nav-link" id="v-pills-form-tab" data-toggle="pill" href="#v-pills-form" role="tab"
-                       aria-controls="v-pills-form" aria-selected="false">Application Form</a>
+                     <a class="nav-link active " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                       aria-controls="v-pills-home" aria-selected="true">Application Form</a>
+                    <a class="nav-link" id="v-pills-circular-tab" data-toggle="pill" href="#v-pills-circular" role="tab"
+                       aria-controls="v-pills-circular" aria-selected="false">Admission Circular</a>
                     <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
                        aria-controls="v-pills-profile" aria-selected="false">Admission Form</a>
                     <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
@@ -34,22 +34,13 @@
                     <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
                        aria-controls="v-pills-settings" aria-selected="false">Admission Results</a>
                     <a class="nav-link" id="v-pills-inter-tab" data-toggle="pill" href="#v-pills-inter" role="tab"
-                       aria-controls="v-pills-inter" aria-selected="false">Information for International Students</a>
+                       aria-controls="v-pills-inter" aria-selected="false"> International Students</a>
                 </div>
             </div>
             <div class="col-lg-9 p-0">
                 <div class="tab-content admission-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                         aria-labelledby="v-pills-home-tab">
-                        <h2 class="section-title">Admission Circular</h2>
-                        <img src="assets/img/admission5.jpg" class="img-fluid" alt="Admission Circular Photo">
-                        <img src="assets/img/admission2.jpg" class="img-fluid" alt="Admission Circular Photo">
-                        <img src="assets/img/admission3.jpg" class="img-fluid" alt="Admission Circular Photo">
-                        <img src="assets/img/admission4.jpg" class="img-fluid" alt="Admission Circular Photo">
-                    </div>
-
                     <!--Application From Start-->
-                    <div class="tab-pane fade" id="v-pills-form" role="tabpanel" aria-labelledby="v-pills-form-tab">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <h2 class="section-title">Application Form</h2>
                         <div class="ajax-result"></div>
                         <?php
@@ -68,83 +59,81 @@
                                                     <div class="col form-group">
                                                         <label>First name* </label>
                                                         <input type="firstname" name="firstname" class="form-control"
-                                                               placeholder="">
+                                                               placeholder="Your Frist Name" value="" required="required">
                                                     </div> <!-- form-group end.// -->
                                                     <div class="col form-group">
                                                         <label>Last name*</label>
                                                         <input type="lastname" name="lastname" class="form-control"
-                                                               placeholder=" ">
+                                                               placeholder="Your Last Name" value="" required="required">
                                                     </div> <!-- form-group end.// -->
                                                 </div> <!-- form-row end.// -->
 
                                                 <div class="form-group">
                                                     <label>Email address*</label>
-                                                    <input type="email" class="form-control" placeholder="">
+                                                    <input type="email" class="form-control" placeholder="info@schooledgebd.com" value="" required="required" >
                                                     <small class="form-text text-muted">We'll never share your email
                                                         with anyone else.
                                                     </small>
                                                 </div> <!-- form-group end.// -->
                                                 <div class="form-group">
-                                                    <label class="form-check form-check-inline">Gender &nbsp &nbsp
-                                                        <input class="form-check-input" type="radio" name="gender"
-                                                               value="Male" checked>
-                                                        <span class="form-check-label"> Male </span>
+                                                    <label class="form-check form-check-inline">Gender* &nbsp &nbsp
+                                                        <input class="form-check-input" type="radio" name="Gender"
+                                                               value="" checked required="required" >
+                                                        <span class="form-check-label">Male </span>
                                                     </label>
                                                     <label class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="gender"
-                                                               value="Female">
-                                                        <span class="form-check-label"> Female</span>
+                                                        <input class="form-check-input" type="radio" name="Gender"
+                                                               value="">
+                                                        <span class="form-check-label">Female</span>
                                                     </label>
                                                 </div> <!-- form-group end.// -->
 
                                                 <div class="form-group">
                                                     <label>Which class are you applying for admission?*</label>
-                                                    <select id="inputState" class="form-control" required="required">
+                                                    <select class="form-control" required="required">
                                                         <option selected="">Choose</option>
-                                                        <option>Play Group</option>
-                                                        <option>Nursery</option>
-                                                        <option>Prep.Junior</option>
-                                                        <option>Prep.Senior</option>
-                                                        <option>Mother Toddlder</option>
-                                                        <option>Day care </option>
-                                                        <option>Day care </option>
-                                                        <option>Day after</option>
+                                                        <option value="">Play Group</option>
+                                                        <option value="">Nursery</option>
+                                                        <option value="">Prep.Junior</option>
+                                                        <option value="">Prep.Senior</option>
+                                                        <option value="">Mother Toddlder</option>
+                                                        <option value="">Day care </option>
+                                                        <option value="">Day care </option>
+                                                        <option value="">Day after</option>
                                                     </select>
                                                 </div> <!-- form-group end.// -->
-                                                <div class="form-group">
-                                                    <div class="form-group"> <!-- Date input -->
-                                                        <label class="control-label" for="date">Date of Birth</label>
-                                                        <input class="form-control" id="date" name="birthday"
-                                                               placeholder="MM/DD/YYY"  type="text"/>
-                                                    </div>
+												<div class="form-group"> <!-- Date input -->
+													<label class="control-label" for="date">Date of Birth</label>
+													<input class="form-control" id="date" name="birthday"
+														   placeholder="MM/DD/YYY"  type="text"/>
+												</div>
 
-                                                    <div class="form-group ">
-                                                        <label>Phone*</label>
-                                                        <input class="form-control" name="phone" type="phone" required="required"
-                                                                  data-error="Please, leave us a Phone.>
-                                                    </div> <!-- form-group end.// -->
+												<div class="form-group ">
+													<label>Phone*</label>
+													<input class="form-control" name="phone" type="phone" placeholder="+8801879-299999"
+													 required="required" >
+												</div> <!-- form-group end.// -->
 
-                                                    <div class="form-group ">
-                                                        <label>Address</label>
-                                                        <input class="form-control" name="address" type="address">
-                                                    </div> <!-- form-group end.// -->
+												<div class="form-group ">
+													<label>Address*</label>
+													<input class="form-control" name="address" type="address" placeholder="H-42, R-13, Sector-3, Uttara, Dhaka-1230"  required="required">
+												</div> <!-- form-group end.// -->
 
 
-                                                    <div class="form-group">
-                                                        <label for="form_message">Message*</label>
-                                                        <textarea id="form_message" name="message" class="form-control"
-                                                                  placeholder="" rows="4" required="required"
-                                                                  data-error="Please, leave us a message."></textarea>
-                                                        <div class="help-block with-errors"></div>
-                                                    </div> <!-- form-group end.// -->
+												<div class="form-group">
+													<label >Message*</label>
+													<textarea name="message" class="form-control"
+															  placeholder="" rows="4" required="required"
+															  >Enter Text Here</textarea>
+												</div> <!-- form-group end.// -->
 
-                                                    <div class="form-group">
-                                                        <button type="submit" class="btn btn-primary btn-block">
-                                                            Submit
-                                                        </button>
-                                                    </div> <!-- form-group// -->
-                                                    <small class="text-muted"><br> Terms of use and Privacy Policy.
-                                                    </small>
+												<div class="form-group">
+													<button type="submit" class="btn btn-primary btn-block">
+														Submit
+													</button>
+												</div> <!-- form-group// -->
+												<small class="text-muted"><br> Terms of use and Privacy Policy.
+												</small>
                                             </form>
                                         </article> <!-- card-body end .// -->
                                     </div> <!-- card.// -->
@@ -155,6 +144,7 @@
                         <!--container end.//-->
                     </div>
                     <!--Application From End -->
+                    
 
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                          aria-labelledby="v-pills-profile-tab">
@@ -163,6 +153,29 @@
                             saepe sit eum id, a optio aliquid doloribus ipsa enim itaque dignissimos repellendus illo
                             eveniet? Animi asperiores fuga suscipit nesciunt voluptatum rem iure nemo beatae quo facere
                             provident natus maiores hic, in quod accusamus illo nobis, corrupti vel.</p>
+                        <ul class="list-group">
+                            <li><i class="far fa-check-square"></i> Information (please present the school with its
+                                remarkable Islamic aspects, curriculum and features)
+                            </li>
+                            <li><i class="far fa-check-square"></i> Guardian’s interest</li>
+                            <li><i class="far fa-check-square"></i> Checking for available seats in the desired
+                                classroom suitable to his/her age.
+                            </li>
+                            <li><i class="far fa-check-square"></i> Admission Form + Admission Questionnaire Form
+                                collection from the Accounts (charge applicable).
+                            </li>
+                            <li><span>Note: </span> Please mention the phone number of the guardian on the admission
+                                receipt including class and session. Please enclose the forms, receipt in an envelope
+                                then deliver them to the guardian.
+                            </li>
+                            <li><i class="far fa-check-square"></i> Filling up the Admission Form + Admission
+                                Questionnaire Form by the guardian
+                            </li>
+                            <li><i class="far fa-check-square"></i> Properly filled up Admission Form + Admission
+                                Questionnaire Form submission with attached necessary documents (e.g.-Birth certificate,
+                                previous school documents) by the guardian
+                            </li>
+                        </ul>    
                     </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                          aria-labelledby="v-pills-messages-tab">
@@ -236,6 +249,19 @@
                             saepe sit eum id, a optio aliquid doloribus ipsa enim itaque dignissimos repellendus illo
                             eveniet? Animi asperiores fuga suscipit nesciunt voluptatum rem iure nemo beatae quo facere
                             provident natus maiores hic, in quod accusamus illo nobis, corrupti vel.</p>
+                        <ul class="list-group">
+                            <li><i class="far fa-check-square"></i> Information (please present the school with its
+                                remarkable Islamic aspects, curriculum and features)
+                            </li>
+                            <li><i class="far fa-check-square"></i> Guardian’s interest</li>
+                            <li><i class="far fa-check-square"></i> Checking for available seats in the desired
+                                classroom suitable to his/her age.
+                            </li>
+                            <li><i class="far fa-check-square"></i> Admission Form + Admission Questionnaire Form
+                                collection from the Accounts (charge applicable).
+                            </li>
+                        
+                        </ul>       
                     </div>
                     <div class="tab-pane fade" id="v-pills-inter" role="tabpanel" aria-labelledby="v-pills-inter-tab">
                         <h2 class="section-title">Information for International Students</h2>
@@ -255,6 +281,14 @@
                             saepe sit eum id, a optio aliquid doloribus ipsa enim itaque dignissimos repellendus illo
                             eveniet? Animi asperiores fuga suscipit nesciunt voluptatum rem iure nemo beatae quo facere
                             provident natus maiores hic, in quod accusamus illo nobis, corrupti vel.</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-circular" role="tabpanel"
+                         aria-labelledby="v-pills-circular-tab">
+                        <h2 class="section-title">Admission Circular</h2>
+                        <img src="assets/img/admission5.jpg" class="img-fluid" alt="Admission Circular Photo">
+                        <img src="assets/img/admission2.jpg" class="img-fluid" alt="Admission Circular Photo">
+                        <img src="assets/img/admission3.jpg" class="img-fluid" alt="Admission Circular Photo">
+                        <img src="assets/img/admission4.jpg" class="img-fluid" alt="Admission Circular Photo">
                     </div>
                 </div>
             </div>
