@@ -71,17 +71,18 @@
 					</form>
 				</div>
 				<div class="col-lg-6">
-					<div class="school-time">
-						<h1>Welcome to SchoolEdge</h1>
-						
-						<h3>School Time</h3>
-						<p>Friday : Closed</p>
-						<p>Saturday : Closed</p>
-						<p>Sunday : 8:00 PM - 2:15 PM</p>
-						<p>Monday : 8:00 PM - 2:15 PM</p>
-						<p>Tuesday : 8:00 PM - 2:15 PM</p>
-						<p>Wednesday : 8:00 PM - 2:15 PM</p>
-						<p>Thursday : 8:00 PM - 2:15 PM</p>
+					<div class="school-time">						
+					<div class="section-head text-center">
+						<h1>Our Operation</h1>
+					</div>
+						<ul class="list-group">
+							<li class="list-group-item">Friday & Saturday : Closed</li>
+							<li class="list-group-item">Sunday : 8:00 PM - 2:15 PM</li>
+							<li class="list-group-item">Monday : 8:00 PM - 2:15 PM</li>
+							<li class="list-group-item">Tuesday : 8:00 PM - 2:15 PM</li>
+							<li class="list-group-item">Wednesday : 8:00 PM - 2:15 PM</li>
+							<li class="list-group-item">Thursday : 8:00 PM - 2:15 PM</li>
+						</ul>
 					</div>
 				</div>
 			</div>

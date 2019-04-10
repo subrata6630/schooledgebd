@@ -8,7 +8,7 @@
 		    				<h2>Welcome to SchoolEdge</h2>
 		    				<p>A perfect learning center for your kids</p>
 		    				<div class="slider-btn">
-		    					<a href="about.html" class="btn filled-btn">About Us</a>
+		    					<a href="about.php" class="btn filled-btn">About Us</a>
 		    				</div>		    				
 		    			</div>
 		    		</div>
@@ -21,7 +21,7 @@
 		    				<h2>Is SchoolEdge right for your child?</h2>
 		    				<p>The future belongs to those who believe in the beauty of their dreams.</p>
 		    				<div class="slider-btn">
-		    					<a href="about.html" class="btn filled-btn">About Us</a>
+		    					<a href="about.php" class="btn filled-btn">About Us</a>
 		    				</div>		    				
 		    			</div>
 		    		</div>
@@ -34,7 +34,7 @@
 		    			    <h2>Why SchoolEdge?</h2>
 		    				<p>Best Education for Your Kids.</p>
 		    				<div class="slider-btn">
-		    					<a href="about.html" class="btn filled-btn">About Us</a>
+		    					<a href="about.php" class="btn filled-btn">About Us</a>
 		    				</div>		    				
 		    			</div>
 		    		</div>
@@ -47,7 +47,7 @@
 		    				<h2>Unique benefits of SchoolEdge education.</h2>
 		    				<p>In school, you learn how to learn.</p>
 		    				<div class="slider-btn">
-		    					<a href="about.html" class="btn filled-btn">About Us</a>
+		    					<a href="about.php" class="btn filled-btn">About Us</a>
 		    				</div>		    				
 		    			</div>
 		    		</div>
@@ -56,30 +56,42 @@
 		</div>
 	</section>
 	<!-- End Banner-->
+
+	<!-- News Ticker Start -->
+	<section class="news-ticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="habout-content">
+					<p>Update:</p>
+					</div>
+				</div>	
+				<div class="col-lg-8">
+					<div class="habout-content">
+					<marquee direction="scroll">Addmission on*** &nbsp&nbsp&nbsp  Wellcome to schooledgebd***  &nbsp&nbsp&nbsp *** Final Term Syllabus 2018-19 ***</marquee>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<!-- News Ticker Start -->
+	
 	
 	<section class="home-about">
 		<div class="container">			
-			<div class="section-head text-center">
-				<h1>About Us</h1>
-				<span></span>
-			</div>
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="habout-content">
-						<p>Set in 3000 Square Feet’s of beautiful School buildings are safe and idyllic. We are conveniently located just 5 minutes east of the Azampur, Uttara, with excellent public transport links and a comprehensive list of bus routes. Every school day, our teachers strive to create an exciting and inspiring learning experience for every child. Our school will be the stage for many of your child's most exciting days, from eye-opening discoveries in the science labs to great sporting victories and thrilling performances on stage in our 100-seater auditorium. Our Primary School students explore their creative talents in a dedicated arts and crafts center, and benefit from an IT room, a space for movement and three separate playgrounds. Early Years students have dedicated classrooms and a play area. Our Secondary School facilities are set up to support students as they master a wide range of subjects. There are rooms for design technology, computer technology, art and design.</p>
+						<p>We are conveniently located just 5 minutes east of the Azampur, Uttara, with excellent public transport links and a comprehensive list of bus routes. Every school day, our teachers strive to create an exciting and inspiring learning experience for every child. Our school will be the stage for many of your child&#39;s most exciting days, from eye-opening discoveries in the science labs to great sporting victories and thrilling performances on stage in our 100-seater auditorium. Our Primary School students explore their creative talents in a dedicated arts and crafts center, and benefit from an IT room, a space for movement and three separate playgrounds.</p><div class= "float-right"><a href="about.php" class="btn school-btn">Read More</a></div>
+						
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="home-about-img">
-						<img src="assets/img/about_img.jpg" alt="" class="img-fluid">
+					<div class="embed-responsive embed-responsive-16by9">
+  						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lNqxduxPCQw?rel=0" allowfullscreen></iframe>
 					</div>
 				</div>
-				
 			</div>
-			
-				<div class="about-more text-center">
-				    <a href="about.html" class="btn school-btn">Read More</a>
-				</div>
 		</div>
 	</section>
 	
@@ -128,45 +140,104 @@
 		</div>
 	</section>
 	<!-- End Feature Section-->
-	
-	<!-- Start Feature Section-->
-	<section class="head-spech">
+
+	<!-- Notice & Calender Start-->
+	<section class="feature">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-2">
-					<div class="headmaster-pic align-self-center">
-						<img src="assets/img/A K M Shamsudiin.jpg" class="img-fluid" alt="Brig Gen AKM Samsuddin awc Photo">
-						<h5 class="subtitle">Chairman</h5>
-						<p>Brig Gen AKM Samsuddin awc, psc (Retd.)</p>
+				<div class="section-head text-center">
+					<h1>Notice & Calendar</h1>
+					<span></span>
+				</div>	
+					<div class="row">
+							<div class="col-lg-6">
+								<div class="single-feature ">
+									<div class="feature-content-one ">
+										<h4 class="feature-one">Notice Board</h4></br>
+										<ul class="list-group">
+											<li class="list-group-item">Notice-01</li>
+											<li class="list-group-item">Notice-02</li>
+											<li class="list-group-item">Notice-03</li>
+											<li class="list-group-item">Notice-04</li>
+											<li class="list-group-item">Notice-05</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-6">
+								<div class="single-feature">
+									<div class="feature-content-two">
+										<h4 class="feature-one">Academic Calendar</h4>
+											<div class="text-right">
+												<h6><span class="badge badge-secondary"> APR 14</span></h6>
+												<p>Holiday for Bengali New Year</p>
+												<h6><span class="badge badge-secondary"> APR 21</span></h6>
+												<p>Shab-E-Barat</p>
+												<h6><span class="badge badge-secondary"> APR 05</span></h6>
+												<p>Summer & Eid-Ul-Fitr Holidays (42 Days)</p>
+												<h6><span class="badge badge-secondary"> APR 05</span></h6>
+												<P>Eid-Ul-Fitr Holidays</P>
+												<h6><span class="badge badge-secondary"> APR 05</span></h6>
+												<P>Summer & Eid-Ul-Fitr Holidays</P>
+											</div>
+									</div>
+								</div>
+							</div>
 					</div>
-				</div>
-				<div class="col-lg-10">
-					<div class="head-content">
-						<!--<span class="subtitle">Welcome</span>-->
-						<h2>Message</h2>
-						<p>SchoolEdge is a newly established educational institution with a team of committed and dedicated teachers, Supportive management, caring and cooperative partners, who work diligently and harmoniously to create a quality education -centric school. Our school's objective is becoming recognized as a torch bearer of value education and excellence in academics to build our students as future leaders not only for themselves but for the nation as well. Our entire effort is to provide such education, that does not restrict itself to imparting solely academic knowledge but also inculcate human values like wisdom, compassion, courage, integrity and reliability in a student. We believe in holistic education for our children,encompassing – academics, co-curricular activities, sports education and life-skills learning. The school campus, sports and academic facilities all bear testimony to this effort. I would like to thank all the parents for sending their children to SchoolEdge. We can ensure you by saying that even though we cannot always build the future for your children, I believe we can build and prepare your children for the future. Finally I extend my warm wishes to the Management, Principal,Staff members of SchoolEdge to continue this journey in making the school one of the leading educational centers of the country.</p>
-					</div>
-				</div>
-			</div>
-			<div class="divider"></div>
-			<div class="row">
-				<div class="col-lg-2">
-					<div class="headmaster-pic align-self-center">
-						<img src="assets/img/Tareq Ahmed.jpg" class="img-fluid" alt="Tareq Ahmed Photo">
-						<h5 class="subtitle">Managing Director</h5>
-						<p>Tareq Ahmed</p>
-					</div>
-				</div>
-				<div class="col-lg-10">
-					<div class="head-content">
-						<!--<span class="subtitle">Welcome</span>-->
-						<h2>Message</h2>
-						<p>It is with great joy that I welcome you to these pages that celebrate to start our SchoolEdge You will find that we can boast excellent facilities, dedicated and professional staff, a lively Enrichment Programmed and – most importantly – to ensure you to outstanding academic success. For all of us, whatever our destiny in life, it is our school that is our foundation. Knowing that we attended a top brand institution is a commendation that all who is members of the SchoolEdge family will be able to carry with them, forever. For this reason we are committed to building our reputation through a continual process of evolution and development: you will see evidence of this in the recruitment of specialist teachers, our resources, the quality of our learning programmers and the range and quality of our extra-curricular activities. it is vital that our children are alert to the unprecedented opportunities that will present themselves over the coming years. A school that is alive, responsive and dynamic is surely the best start in life. And we believe that only the best will do, for our school, our students and our country. I would like to close by thanking everyone – parents, students and staff for putting your faith in our school and its future. All of us are and will always be part of the SchoolEdge family.</p>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
+
+
+	<!-- Notice & Calender End-->
+
+
+	 
+	<!-- News And Event Start -->
+	<section class="News">
+	<div class="container">
+	<div class="section-head text-center">
+				<h1>News & Event</h1>
+				<span></span>
+			</div>
+	<div class="row">
+		<div class="col-lg-4">
+				<div class="event-item">
+					<a href="single-news.php"><img src="assets/img/news-1.jpg" alt="" class="img-fluid"></a>
+					<div class="event-content">
+						<span>February 21, 2019</span>
+						<h1><a href="single-news.php">Ekushey February Program</a></h1>
+						<p>Aliquid ratione tempora fuga eius enim officia veritatis,</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-lg-4">
+					<div class="event-item">
+						<a href="single-news.php"><img src="assets/img/news-2.jpg" alt="" class="img-fluid"></a>
+						<div class="event-content">
+							<span>March 22, 2019</span>
+							<h1><a href="single-news.php">Study Tour Program</a></h1>
+							<p>Aliquid ratione tempora fuga eius enim officia veritatis, minima est accusamus magni, corrupti id</p>
+						</div>	
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="event-item">
+						<a href="single-news.php"><img src="assets/img/news-3.jpg" alt="" class="img-fluid"></a>
+						<div class="event-content">
+							<span>March 22, 2019</span>
+							<h1><a href="single-news.php">Study Tour Program</a></h1>
+							<p>Aliquid ratione tempora fuga eius enim officia veritatis, minima est accusamus magni, corrupti id</p>
+						</div>	
+					</div>
+				</div>	
+		</div> 	
+	</div>	
+	
+	</section>							
+		
+
+	<!-- News And Event End -->
+
 	<!-- End Feature Section-->
 
 	<section class="testimonials">

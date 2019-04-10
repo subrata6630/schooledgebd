@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-  Theme Name: Chimbuk School HTML Template
+  Theme Name: Chimbuk HTML Template
   Theme URI: 
   Description: Chimbuk School HTML Template
   Author: 
@@ -773,6 +773,22 @@ footer#footer{
 }
 .home-about{
   padding: 80px 0 100px 0;
+}
+
+.news-ticker{
+  color:#108BEA;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+.notice-list ul{
+  font-size: inherit;
+  list-style: outside none none;
+  margin: 0 0 30px;
+  padding: 0;
 }
 .divider {
     border: 1px solid #aaa;

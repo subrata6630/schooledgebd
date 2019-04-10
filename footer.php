@@ -6,7 +6,7 @@
 					<div class="widget">
 						<div class="footer-about">
 							<img src="assets/img/logo1.png" class="img-fluid" alt="Footer Logo">	
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In aperiam ea quos impedit accusamus necessitatibus, blanditiis dignissimos mollitia. In aperiam ea quos impedit accusamus necessitatibus.</p>			
+							<p>We are conveniently located just 5 minutes east of the Azampur, Uttara, with excellent public transport links and a comprehensive list of bus routes. Every school day, our teachers strive to create an exciting and inspiring learning experience for every child.</p>			
 						</div>
 					</div>
 				</div>
@@ -90,6 +90,22 @@
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<!-- scripts js -->
 	<script src="assets/js/scripts.js"></script>
+	<script>
+    $("#admission").submit(function (e) {
+        e.preventDefault();
+        var post_url = $(this).attr("action"); //get form action url
+        var request_method = $(this).attr("method"); //get form GET/POST method
+        var form_data = $(this).serialize(); //Encode form elements for submission
+
+        $.ajax({
+            url: 'mail.php',
+            type: request_method,
+            data: form_data
+        }).done(function (response) { //
+            $(".ajax-result").html(response.message);
+        });
+    });
+</script>
 
 </body>
 </html>

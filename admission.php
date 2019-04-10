@@ -24,11 +24,11 @@
                 <div class="nav flex-column nav-pills admission-nav" id="v-pills-tab" role="tablist"
                      aria-orientation="vertical">
                      <a class="nav-link active " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                       aria-controls="v-pills-home" aria-selected="true">Application Form</a>
+                       aria-controls="v-pills-home" aria-selected="true">Apply Online</a>
                     <a class="nav-link" id="v-pills-circular-tab" data-toggle="pill" href="#v-pills-circular" role="tab"
-                       aria-controls="v-pills-circular" aria-selected="false">Admission Circular</a>
+                       aria-controls="v-pills-circular" aria-selected="false">Admission Going on</a>
                     <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-                       aria-controls="v-pills-profile" aria-selected="false">Admission Form</a>
+                       aria-controls="v-pills-profile" aria-selected="false">Admission Fees</a>
                     <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
                        aria-controls="v-pills-messages" aria-selected="false">Admission Procedure</a>
                     <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
@@ -41,7 +41,7 @@
                 <div class="tab-content admission-content" id="v-pills-tabContent">
                     <!--Application From Start-->
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <h2 class="section-title">Application Form</h2>
+                        <h2 class="section-title">Apply Online</h2>
                         <div class="ajax-result"></div>
                         <?php
                         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -148,7 +148,7 @@
 
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                          aria-labelledby="v-pills-profile-tab">
-                        <h2 class="section-title">Admission Form</h2>
+                        <h2 class="section-title">Admission Fees</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, nesciunt error voluptatibus
                             saepe sit eum id, a optio aliquid doloribus ipsa enim itaque dignissimos repellendus illo
                             eveniet? Animi asperiores fuga suscipit nesciunt voluptatum rem iure nemo beatae quo facere
@@ -180,6 +180,13 @@
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                          aria-labelledby="v-pills-messages-tab">
                         <h2 class="section-title">Admission Procedure</h2>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="text-center">
+                                    <img src="assets/img/admin.jpg" class="img-fluid float" alt="Admission Circular Photo">
+                                </div>
+                            </div>
+                        </div></br>
                         <ul class="list-group">
                             <li><i class="far fa-check-square"></i> Information (please present the school with its
                                 remarkable Islamic aspects, curriculum and features)
@@ -284,128 +291,39 @@
                     </div>
                     <div class="tab-pane fade" id="v-pills-circular" role="tabpanel"
                          aria-labelledby="v-pills-circular-tab">
-                        <h2 class="section-title">Admission Circular</h2>
-                        <img src="assets/img/admission5.jpg" class="img-fluid" alt="Admission Circular Photo">
-                        <img src="assets/img/admission2.jpg" class="img-fluid" alt="Admission Circular Photo">
-                        <img src="assets/img/admission3.jpg" class="img-fluid" alt="Admission Circular Photo">
-                        <img src="assets/img/admission4.jpg" class="img-fluid" alt="Admission Circular Photo">
+                        <h2 class="section-title">Admission Going on</h2>
+                        <img src="assets/img/admission5.jpg" class="img-fluid" alt="Admission Circular Photo"></br></br>
+                        <div class ="row">
+                        <div class="col-md-7">
+                        <h4>Why SchoolEdge unique & different?</h4></br>
+                            <ul class="list-group">
+                                <li>Cambridge Int'l Examinations Certified Teachers</li>
+                                <li>Reliable School Transportation Service</li>
+                                <li>Well Equipped Labs for Physics, Chemistry, Biology And ICT</li>
+                                <li>Extra Curricular Activities</li>
+                                <li>Outdoor Education</li>
+                                <li>Personal Attention to Each Student</li>
+                                <li>Quran Classes</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                        <h4>Specila Features</h4></br>
+                            <ul class="list-group">
+                                <li>Air Conditioned Classrooms</li>
+                                <li>Modern Classrooms, Fully</li>
+                                <li>Equipped With Audio & Visul Aids</li>
+                                <li>Parenting Workshop</li>
+                                <li>Own Auditorim</li>
+                                <li>Routine Health checkup</li>
+                                <li>Full Time Generator Backup</li>
+                                <li>24/7 CCTV Surveillance Camera</li>
+                            </ul>
+                        </div>
+                       </div> 
                     </div>
                 </div>
             </div>
         </div>
 </section>
 
-<!-- Start Footer-->
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="widget">
-                    <div class="footer-about">
-                        <img src="assets/img/logo1.png" class="img-fluid" alt="Footer Logo">
-                        <p>Every school day, our teachers strive to create an exciting and inspiring learning experience
-                            for every child. Our school will be the stage for many of your child's most exciting days,
-                            from eye-opening discoveries in the science labs to great sporting victories and thrilling
-                            performances on stage in our 100-seater auditorium. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2">
-                <div class="widget">
-                    <h2 class="widget-title">Quick Links</h2>
-                    <div class="footer-menu">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Admission</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Notice</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="widget">
-                    <h2 class="widget-title">Events & News</h2>
-                    <div class="footer-events">
-                        <ul class="nav flex-column">
-                            <a class="nav-link active" href="#">Lorem ipsum dolor sit amet.</a>
-                            <a class="nav-link active" href="#">Consectetur adipisicing elit. Architecto </a>
-                            <a class="nav-link active" href="#">Praesentium sunt, minima, corporis tempore</a>
-                            <a class="nav-link active" href="#">Repellat temporibus illum</a>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="widget">
-                    <h2 class="widget-title">Google Map</h2>
-                    <div class="footer-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.160689065784!2d90.39611682916448!3d23.8668162254583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDUyJzAwLjUiTiA5MMKwMjMnNDguMCJF!5e0!3m2!1sen!2sbd!4v1551812985442"
-                                width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <p>SchoolEdge © 2019. All rights reserved.</p>
-                </div>
-                <div class="col-lg-4 ml-0">
-                    <p>School Time : SUN – THUR : 8:00 AM To 2:15 PM</p>
-                </div>
-                <div class="col-lg-4 ml-0">
-                    <p>Develop By <a href="https://www.webcivic.com" target="_blank">webcivic.com</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End Footer-->
-
-<!-- Scroll Top-->
-<a href="#back-top" class="go-top"><i class="fas fa-chevron-up"></i></a>
-
-<!-- jQuery -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<!-- Latest compiled and minified Bootstrap -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- js-owl.carousel -->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!-- scripts js -->
-<script src="assets/js/scripts.js"></script>
-<script>
-    $("#admission").submit(function (e) {
-        e.preventDefault();
-        var post_url = $(this).attr("action"); //get form action url
-        var request_method = $(this).attr("method"); //get form GET/POST method
-        var form_data = $(this).serialize(); //Encode form elements for submission
-
-        $.ajax({
-            url: 'mail.php',
-            type: request_method,
-            data: form_data
-        }).done(function (response) { //
-            $(".ajax-result").html(response.message);
-        });
-    });
-</script>
-</body>
-</html>
+<?php include ("footer.php"); ?>

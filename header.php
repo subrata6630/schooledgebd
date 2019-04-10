@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="assets/css/styles.css">
 	<!-- Responsive Style CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	
 </head>
 
 <body>
@@ -46,11 +47,11 @@
 				<div class="col-lg-6">
 					<div class="social">
 						<ul class="nav justify-content-end">
-							<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href=""><i class="fab fa-twitter"></i></a></li>
-							<li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href=""><i class="fab fa-youtube"></i></a></li>
-							<li><a href=""><i class="fab fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/SchoolEdgeBangladesh/"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UC_ROyylQ0Xf_gzGSJdgU2FQ"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 						</ul>
 					</div>
 				</div>
