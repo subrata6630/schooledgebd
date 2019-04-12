@@ -6,11 +6,11 @@
 	<!-- Meta -->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<!--Favicon for this site -->
-    <link rel="shortcut icon" type="text/css" href="assets/img/favicon.png">
-    <!-- Latest Bootstrap min CSS -->
+    	<link rel="shortcut icon" type="text/css" href="assets/img/favicon.png">
+    	<!-- Latest Bootstrap min CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!-- Font Awesome CSS -->	
 	<link rel="stylesheet" href="assets/css/all.min.css">
@@ -22,6 +22,22 @@
 	<link rel="stylesheet" href="assets/css/styles.css">
 	<!-- Responsive Style CSS -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	
+	<!-- Faccebook Message Start WhatsHelp.io widget -->	
+	<script type="text/javascript">
+    	(function () {
+        var options = {
+            facebook: "581644338932294", // Facebook page ID
+            call_to_action: "Message us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!--Faccebook Message End WhatsHelp.io widget -->	
 	
 </head>
 
